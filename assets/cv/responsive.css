@@ -1,0 +1,5 @@
+@media screen and (max-width: 1000px) {
+    .list li {
+        font-size: 250px;
+    }
+} 

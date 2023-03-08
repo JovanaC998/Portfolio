@@ -1,0 +1,552 @@
+@media screen and (max-width:1700px) {
+	.img {
+		position: absolute;
+		top: 250px;
+		left: 65%;
+		height: 52%;
+	}
+
+}
+
+@media screen and (max-width:1365px) {
+	.list li a {
+		font-size: 25px;
+	}
+	.back {
+		display: none;
+	}
+	.img {
+		position: relative;
+		top: 130px;
+		left: 65%;
+	}
+	.myImg {
+		border-radius: 60px;
+		width: 100%;
+	}
+	.info {
+		width: 60%;
+	}
+	.info p {
+		width: 70%;
+	}
+}
+
+@media screen and (max-width:1150px) {
+	.info {
+		width: 70%;
+		text-align: left;
+	}
+	.myImg {
+		width: 100%;
+	}
+	.img {
+		position: relative;
+		top: 135px;
+		left: 65%;
+	}
+	.info h1 {
+		font-size: 50px;
+	}
+	.info p {
+		width: 70%;
+		font-size: 20px;
+		text-align: justify;
+	}
+	.serv-content {
+		display: flex;
+		flex-wrap: wrap;
+		padding-left: 0;
+	}
+	.card {
+		flex: 0 0 33.333333%;
+		margin: 3%;
+	}
+	#proj-content {
+		display: flex;
+		flex-wrap: wrap;
+		padding-left: 0;
+	}
+	.projects {
+		flex: 0 0 40%;
+		margin: 3%;
+	}
+	.projectInformations {
+		font-size: 20px;
+	}
+	.informationContent {
+		font-size: 18px;
+	}
+	#skills h3 {
+		width: 85%;
+		margin: 0px auto;
+		padding-bottom: 15px;
+	}
+}
+
+@media screen and (max-width:1050px) {
+	#skills h3 {
+		width: 80%;
+		margin: 0px auto;
+		padding-bottom: 15px;
+	}
+}
+
+@media screen and (max-width:1000px) {
+	header {
+		height: 16%;
+	}
+	.list li a {
+		font-size: 23px;
+	}
+	.img {
+		position: relative;
+		top: 100px;
+		left: 65%;
+	}
+	.info h1 {
+		font-size: 48px;
+	}
+	.info p {
+		width: 68%;
+		text-align: left;
+	}
+	mark {
+		font-size: 25px;
+	}
+	#contact-content {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 0px;
+		margin: 0px auto;
+	}
+	.contact-form {
+		width: 80%;
+		margin: 0px auto;
+		padding-bottom: 3%;
+	}
+	.map {
+		width: 60%;
+		height: 300px;
+		margin: 0px auto;
+	}
+}
+
+@media screen and (max-width:900px) {
+	.info {
+		margin: 0px auto;
+		text-align: center;
+		padding-bottom: 0%;
+		padding-left: 0px;
+	}
+	.info p {
+		width: 100%;
+		text-align: justify;
+	}
+	#image {
+		width: 200px;
+		height: 250px;
+		margin: 0px auto;
+		margin-top: 2%;
+		margin-bottom: 2%;
+		background-image: url(../img/me.jpg);
+		background-size: cover;
+		border-radius: 20px;
+		border: 1px solid #fc8eb1;
+	}
+	#cv {
+		margin-top: 0px;
+	}
+	.img {
+		display: none;
+	}
+	.social {
+		width: 20%;
+		margin: 0px auto;
+	}
+	.myImg {
+		display: none;
+	}
+	#skills h3 {
+		width: 65%;
+		margin: 0px auto;
+		padding-bottom: 15px;
+	}
+	details {
+		font-size: 22px;
+		width: 430px;
+		margin: 0px auto;
+		padding-bottom: 2%;
+		color: #fff;
+	}
+	details summary {
+		padding: 1%;
+		height: 40px;
+		cursor: pointer;
+		list-style-type: "🔽";
+		background-color: #fc8eb1;
+		border-radius: 5px;
+		box-shadow: 2px 2px 3px #030d16de;
+	}
+	details p {
+		padding-top: 3%;
+		font-size: 18px;
+		text-align: center;
+		color: #fff;
+	}
+	#proj-content {
+		display: flex;
+		flex-wrap: wrap;
+		padding-left: 0;
+	}
+	.projects {
+		flex: 0 0 60%;
+		margin: 3%;
+	}
+	.projectInformations {
+		font-size: 25px;
+		text-align: center;
+	}
+	.informationContent {
+		font-size: 22px;
+		text-align: center;
+	}
+	#copyRight a {
+		font-size: 27px;
+	}
+}
+
+@media screen and (max-width:800px) {
+	.serv-content {
+		display: flex;
+		flex-wrap: wrap;
+		padding-left: 0;
+	}
+	.card {
+		flex: 0 0 50%;
+		margin: 3%;
+		font-size: 20px;
+	}
+	#copyRight a {
+		font-size: 23px;
+	}
+}
+
+@media screen and (max-width:725px) {
+	.list li a {
+		font-size: 20px;
+	}
+	.info h1 {
+		font-size: 40px;
+	}
+	.info p {
+		font-size: 18px;
+	}
+	mark {
+		font-size: 23px;
+	}
+	#copyRight a {
+		font-size: 19px;
+	}
+}
+
+@media screen and (max-width:650px) {
+	.list li a {
+		font-size: 17px;
+	}
+	.info h1 {
+		font-size: 36px;
+	}
+	.info p {
+		font-size: 16px;
+	}
+	mark {
+		font-size: 20px;
+	}
+	.social {
+		width: 28%;
+	}
+	.map {
+		display: none;
+	}
+	footer {
+		display: flex;
+		flex-direction: column;
+		margin: 0px auto;
+	}
+	#files {
+		margin: 0px auto;
+		text-align: center;
+		width: 100%;
+	}
+	#files ul {
+		text-align: center;
+		margin-left: 0px;
+		margin: 0px auto;
+		justify-content: center;
+	}
+	#copyRight {
+		width: 60%;
+		margin: 0px auto;
+		justify-content: center;
+	}
+	#icons {
+		width: 100%;
+	}
+	#icons a i {
+		font-size: 40px;
+	}
+	#copyRight a {
+		font-size: 25px;
+		margin-right: 0px;
+	}
+}
+
+@media screen and (max-width: 630px) {
+	.center {
+		display: flex;
+		flex-direction: column;
+	}
+	.list {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		font-size: 20px;
+		width: 100%;
+		margin-left: 0px;
+	}
+	#services {
+		color: #fff;
+		margin: 0%;
+	}
+	.social {
+		margin: 0px auto;
+	}
+	nav {
+		width: 80%;
+	}
+	.list li {
+		border-bottom: 1px dashed #fc8eb1;
+	}
+	header {
+		background-color: #fc8eb12f;
+		height: 260px;
+		position: relative;
+	}
+	#logo {
+		height: 120px;
+		width: 40%;
+	}
+	#logo img {
+		width: 100%;
+		height: 100%;
+	}
+	main {
+		padding-top: 10px;
+	}
+	footer {
+		display: flex;
+		flex-direction: column;
+		margin: 0px auto;
+	}
+	#files {
+		margin: 0px auto;
+		text-align: center;
+		width: 100%;
+	}
+	#files ul {
+		text-align: center;
+		margin-left: 0px;
+		margin: 0px auto;
+		justify-content: center;
+	}
+	#copyRight {
+		width: 60%;
+		margin: 0px auto;
+		justify-content: center;
+	}
+	#icons {
+		width: 100%;
+	}
+	#icons a i {
+		font-size: 40px;
+	}
+	#copyRight a {
+		font-size: 25px;
+		margin-right: 0px;
+	}
+	#arrow {
+		display: block;
+		position: fixed;
+		z-index: 3;
+		left: 92%;
+		font-size: 30px;
+		bottom: 0px;
+		width: 200px;
+	}
+	#arrow i {
+		color: #fc8eb1;
+		background-color: #0e273c3f;
+		border-radius: 5px;
+	}
+}
+
+@media screen and (max-width:530px) {
+	.info h1 {
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width:480px) {
+	.info h1 {
+		font-size: 25px;
+		width: 100%;
+	}
+	.info {
+		width: 100%;
+		margin: 0px auto;
+	}
+	.info p {
+		margin: 0px auto;
+		text-align: justify;
+		font-size: 15px;
+		width: 80%;
+	}
+	mark {
+		font-size: 18px;
+	}
+	#logo {
+		height: 120px;
+		width: 40%;
+	}
+	.social {
+		width: 40%;
+	}
+	.title {
+		font-size: 25px;
+	}
+	.card {
+		flex: 0 0 40%;
+		margin: 3%;
+		font-size: 16px;
+	}
+	#skills h3 {
+		font-size: 16px;
+		width: 90%;
+		margin: 0px auto;
+		padding-bottom: 15px;
+	}
+	details {
+		font-size: 18px;
+		width: 60%;
+	}
+	details summary {
+		height: 30px;
+	}
+	details p {
+		font-size: 16px;
+	}
+	.projects {
+		flex: 0 0 70%;
+	}
+	.projectInformations {
+		font-size: 20px;
+	}
+	.informationContent {
+		font-size: 18px;
+	}
+	.hover {
+		margin: 0px auto;
+		width: 85%;
+		height: 220px;
+	}
+	.hover:hover .view {
+		height: 36px;
+		padding-top: 4%;
+		border: 1px solid #fff;
+		font-size: 18px;
+		bottom: 145px;
+	}
+	::placeholder {
+		font-size: 15px;
+	}
+	.form-submit-btn {
+		width: 20%;
+		text-align: center;
+		padding: 15px 0px;
+		font-size: 15px;
+	}
+	#icons a i {
+		font-size: 30px;
+	}
+	#copyRight a {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 430px) {
+	#copyRight a {
+		font-size: 20px;
+		margin-right: 0px;
+	}
+}
+
+@media screen and (max-width:380px) {
+	.info h1 {
+		font-size: 23px;
+		width: 100%;
+	}
+	.info p {
+		font-size: 14px;
+	}
+	mark {
+		font-size: 16px;
+	}
+	.card {
+		flex: 0 0 60%;
+		font-size: 15px;
+	}
+	.projects {
+		flex: 0 0 75%;
+	}
+	.projectInformations {
+		font-size: 18px;
+	}
+	.informationContent {
+		font-size: 15px;
+	}
+	#icons a i {
+		font-size: 30px;
+	}
+	#copyRight a {
+		font-size: 18px;
+	}
+	#image {
+		width: 180px;
+		height: 230px;
+	}
+}
+
+@media screen and (max-width:350px) {
+	.social {
+		width: 45%;
+	}
+	details {
+		font-size: 16px;
+		width: 65%;
+	}
+	details summary {
+		height: 30px;
+	}
+	details p {
+		font-size: 15px;
+	}
+	.form-submit-btn {
+		width: 30%;
+		padding: 10px 0px;
+		font-size: 14px;
+	}
+	#copyRight a {
+		font-size: 16px;
+	}
+}

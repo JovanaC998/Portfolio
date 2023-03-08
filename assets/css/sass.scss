@@ -1,0 +1,452 @@
+$headerCollor:  rgba(255, 255, 255, 0.79);
+$backgroundCollor: #9dc3e2;
+$navHoverCollor: #ffb5cc;
+$whiteCollor: #fff;
+$pinkCollor: $pinkCollor;
+$markPinkCollor: #fc8eb149;
+$boxShadowCollor: #030d16de;
+$projectsBackgroundCollor: #facbda;
+$projectFieldsCollor: #215988;
+$contactFormBackgroundCollor: rgba(255, 255, 255, 0.2);
+
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-variant: small-caps;
+  font-family: font;
+}
+
+@font-face {
+  font-family: font;
+  src: url(/assets/fonts/SignikaNegative-VariableFont_wght.ttf);
+}
+
+header {
+  width: 100%;
+  background-color: $headerCollor;
+  position: fixed;
+  z-index: 2;
+}
+
+.center {
+  width: 90%;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo {
+  width: 20%;
+  cursor: pointer;
+
+  img {
+    width: 100%;
+    height: 120px;
+  }
+}
+
+.list {
+  li a {
+    color: $backgroundCollor;
+    font-size: 25px;
+    margin: 10px;
+    font-size: 27px;
+    font-weight: bolder;
+  }
+
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 10px;
+}
+
+nav a:hover {
+  color: $navHoverCollor;
+}
+
+main {
+  width: 100%;
+  background-color: $backgroundCollor;
+  padding-top: 150px;
+}
+
+.info {
+  padding-left: 8%;
+  text-align: justify;
+
+  h1 {
+    font-size: 60px;
+    color: $whiteCollor;
+    margin-bottom: 20px;
+  }
+}
+
+span {
+  color: $pinkCollor;
+}
+
+mark {
+  background-color: $markPinkCollor;
+  font-size: 28px;
+  color: $whiteCollor;
+}
+
+.info {
+  p {
+    width: 50%;
+    color: $whiteCollor;
+    font-size: 24px;
+  }
+
+  a {
+    background-color: $pinkCollor;
+    padding: 10px 18px;
+    color: $whiteCollor;
+    display: inline-block;
+    margin: 30px 0px;
+    border-radius: 20px;
+  }
+}
+
+.img {
+  width: 25%;
+  height: 55%;
+  position: absolute;
+  bottom: 0px;
+  right: 100px;
+}
+
+.myImg {
+  width: 60%;
+  padding: 40px;
+  border-radius: 100px 200px;
+}
+
+.back {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px 250px;
+}
+
+.img {
+  img {
+    position: absolute;
+    left: 70%;
+    bottom: 100px;
+    transform: translateX(-70%);
+    transition: bottom 1s, left 1s;
+  }
+
+  &:hover {
+    .back {
+      bottom: 90px;
+    }
+
+    .myImg {
+      left: 75%;
+    }
+  }
+}
+
+.social {
+  width: 15%;
+  text-align: center;
+  margin-left: 8%;
+  background-color: $pinkCollor;
+  border-radius: 20px;
+
+  a {
+    font-size: 30px;
+    color: $whiteCollor;
+    padding: 7px;
+
+    &:hover {
+      color: $backgroundCollor;
+    }
+  }
+}
+
+#services {
+  color: $whiteCollor;
+  margin: 4%;
+}
+
+.title {
+  color: $whiteCollor;
+  font-size: 35px;
+  text-align: center;
+  padding: 2%;
+  text-decoration: underline;
+}
+
+#services .serv-content .card {
+  width: 20%;
+  background: $pinkCollor;
+  text-align: center;
+  border-radius: 6px;
+  padding: 50px 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: $backgroundCollor;
+    border: 3px solid $pinkCollor;
+  }
+
+  .box {
+    transition: all 0.3s ease;
+  }
+
+  &:hover .box {
+    transform: scale(1.05);
+  }
+
+  i {
+    font-size: 50px;
+    color: $backgroundCollor;
+    transition: color 0.3s ease;
+  }
+
+  &:hover i {
+    color: $whiteCollor;
+  }
+
+  .text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+  }
+}
+
+#arrow {
+  display: none;
+}
+
+.serv-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#skills {
+  margin-bottom: 2%;
+
+  h3 {
+    color: $whiteCollor;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 2%;
+  }
+}
+
+details {
+  font-size: 30px;
+  width: 530px;
+  margin: 0px auto;
+  padding-bottom: 2%;
+  color: $whiteCollor;
+
+  summary {
+    padding: 1%;
+    height: 50px;
+    cursor: pointer;
+    list-style-type: "🔽";
+    background-color: $pinkCollor;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px $boxShadowCollor;
+  }
+
+  p {
+    padding-top: 3%;
+    font-size: 20px;
+    text-align: center;
+    color: $whiteCollor;
+  }
+}
+
+#myProjects {
+  width: 100%;
+}
+
+#proj-content {
+  width: 88%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.projects {
+  width: 26%;
+  border-radius: 22px;
+  background-color: $projectsBackgroundCollor;
+}
+
+.hover {
+  border-radius: 22px;
+  width: 90%;
+  padding: 5%;
+  height: 250px;
+}
+
+.projectPictures {
+  width: 100%;
+  border-radius: 22px;
+  height: 100%;
+}
+
+.hover:hover .view {
+  display: block;
+  width: 30%;
+  height: 40px;
+  background-color: $navHoverCollor83;
+  padding-top: 3%;
+  color: $whiteCollor;
+  border-radius: 10px;
+  border: 3px solid $whiteCollor;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+  bottom: 150px;
+  left: 36%;
+}
+
+.view {
+  display: none;
+}
+
+.projectPictures:hover {
+  filter: blur(1.5px);
+}
+
+.projectInformations {
+  font-size: 23px;
+  color: $pinkCollor;
+  letter-spacing: 5px;
+}
+
+#projectFields {
+  padding: 2%;
+  color: $projectFieldsCollor;
+}
+
+.informationContent {
+  font-size: 20px;
+  padding: 6px;
+  text-align: justify;
+}
+
+#contact {
+  padding: 3.5%;
+}
+
+#contact-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+}
+
+.contact-form {
+  input, textarea {
+    width: 100%;
+    height: 40px;
+    background: $contactFormBackgroundCollor;
+    border: 1px solid $whiteCollor;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    color: $whiteCollor;
+    padding: 5px 10px;
+  }
+}
+
+::placeholder {
+  color: $whiteCollor;
+  font-size: 20px;
+}
+
+#msg {
+  height: 150px;
+  resize: none;
+}
+
+.form-submit-btn {
+  background: $pinkCollor;
+  color: $whiteCollor;
+  text-transform: capitalize;
+  padding: 15px 40px;
+  display: block;
+  margin: 0px auto;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.map {
+  width: 100%;
+  height: 75%;
+  padding: 10px;
+  border: 2px solid $whiteCollor;
+  border-radius: 10px;
+
+  iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  }
+}
+
+footer {
+  width: 100%;
+  background-image: linear-gradient(to right, $backgroundCollor, $pinkCollor);
+  display: flex;
+  justify-content: space-between;
+}
+
+#files {
+  width: 500px;
+  margin-left: 65px;
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
+#icons {
+  li a {
+    margin: 0px auto;
+  }
+
+  a i {
+    font-size: 55px;
+    color: $whiteCollor;
+    padding: 7px;
+
+    &:hover {
+      color: $pinkCollor;
+    }
+  }
+}
+
+#copyRight {
+  width: 700px;
+  display: flex;
+  justify-content: end;
+
+  a {
+    font-size: 30px;
+    color: $whiteCollor;
+    margin-right: 160px;
+    padding-top: 15px;
+
+    &:hover {
+      font-weight: bold;
+      color: $backgroundCollor;
+    }
+  }
+}
